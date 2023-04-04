@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="en_tete">
+      <h1>Défi 3</h1>
+      <h2>STRIMKO</h2>
+      <p>
+        Place les 3 jétons " 1 ", les 3 jétons " 2 ", les 3 jétons " 3 " et les
+        les 3 jétons " 4 " pour que les 4 nombres apparaissent une et une seule
+        fois par ligne, par colonne et par chaîne.
+      </p>
+    </div>
+
+    <div id="container">
+      <canvas id="myCanvas"></canvas>
+      <table id="block"></table>
+      <ul id="choix"></ul>
+      <form id="form" action="#" method="get">
+        <input type="reset" value="Réinitialisé" />
+        <input type="submit" value="Confirmé" />
+      </form>
+      <div>
+        <img src="image/true.jpg" id="img1" />
+        <img src="image/false.jpg" id="img2" />
+      </div>
+      <img src="image/close.png" id="img3" onclick="popUpClose()" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
